@@ -44,11 +44,12 @@ function InputBox({
         >
           {currencyOptions.map((currency) => {
             console.log(currency + " is this");
-            
+
             return (
-            <option key={currency} value={currency}>
-              {currency.toUpperCase()}
-            </option>);
+              <option key={currency} value={currency}>
+                {currency.toUpperCase()}
+              </option>
+            );
           })}
         </select>
       </div>
